@@ -36,7 +36,7 @@ transformer = joblib.load('model/transform.mdl')
 vectorizer = joblib.load('model/vectorizer.mdl')
 
 os.environ[
-    'TOKEN'] = 'AAAAAAAAAAAAAAAAAAAAAKcgggEAAAAA4L5jgM2FPWh69QDHbyH9be4E%2BKU%3DORwQF1WPicLs4G8pjhehGvmCaPLFu9SZpkCPTSz3C8xd8Trwqu'
+    'TOKEN'] = '<enter token>'
 
 
 def auth():
